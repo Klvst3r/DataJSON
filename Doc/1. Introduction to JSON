@@ -1,0 +1,52 @@
+1. Introduction to JSON
+
+JSON Stands for JavaScript Objetc Notation
+JSON Objects are used for transferring between server and client
+XML serves the same purposo. However JSON objects have severals advantages over XML
+JSON is a lightweight data-interchanging format
+JSON is "self-describing" and easy to undersand
+JSON is  an independient language
+
+
+JSON simple object
+
+var chaitanya = {
+	"firstName" . "Chaitanya",
+	"lastName" : "Singh",
+	"age" : "28 "
+};
+
+It is the value and each key value pair being separated by a comma and get separated from value by using a colon, we must separate get from value by using a colon and each pair is separated by a coma and the whole object is closed inside closed records.
+
+JSON vs XML
+JSSON was similar 
+
+Excample object
+
+
+JSON Format:
+{
+	"company" : "Volkswagen",
+	"name" : "Vento",
+	"orice" : 800000
+}
+
+
+XML Format
+<car>
+	<company>Volkswagen</company>
+	<name>Vento>/name>
+	<price>800000>/price>
+</car>
+
+
+ JSON in lighter as compared to XML
+ SON suports Arryas
+Parsing JSON objects is easier we need to use JSON.parse() method for that
+
+
+
+
+
+
+
