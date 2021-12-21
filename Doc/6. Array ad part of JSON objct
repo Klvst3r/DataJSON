@@ -4,3 +4,62 @@ Now we are going to discuss how we can play at its own values in surges
 
 We are able to specify  areas one of the value of one object
 
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+		var myObj = {
+			"name" : "vatan",
+			"age" : 30,
+			"cars": ["Fiat", "Mercedes", "BMW"]
+		};
+
+		var data = myObj.name + " Whose age is " + myObj.age + " holds these cars ";
+
+			data += myObj.cars[0]+ " " + myObj.cars[1] + " " + myObj.cars[2];
+
+		
+
+		document.getElementById("demo").innerHTML = data;
+
+	</script> 
+</body>
+</html>
+
+
+And we can use a loop also:
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+		var myObj = {
+			"name" : "vatan",
+			"age" : 30,
+			"cars": ["Fiat", "Mercedes", "BMW"]
+		};
+
+		var data = myObj.name + " Whose age is " + myObj.age + " holds these cars ";
+
+		for(i in myObj.cars)
+		{
+			data += myObj.cars[i] + " ";
+		}
+
+		
+
+		document.getElementById("demo").innerHTML = data;
+
+	</script> 
+</body>
+</html>
