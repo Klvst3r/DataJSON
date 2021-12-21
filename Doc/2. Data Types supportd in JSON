@@ -1,0 +1,45 @@
+2. Data Types supportd in JSON
+
+JSON can stored the types in case and object we can store several types in just one 
+
+
+Varius Data Types in JSON
+
+a string 
+a number
+an object (JSON object)
+an array
+a boolean
+null
+
+
+JSON Strings
+Strings in JSON must be written in dloubls quotes.
+{"name" : "John"}
+
+JSON numbers
+Nubers in JSON must be an integer oa a floating point
+{"age": 30}
+
+JSON Objcts
+Values in JSON can be objects
+{
+	"employee":{ "name":"John", "age":30, "city":"New York" }
+}
+
+
+JSON Arrays
+
+{
+	"employees" : ["Jonh", "Anna", "Peter"]
+}
+
+
+JSON Boolenas
+Values in JSON can be true/false
+{"sale":true}
+
+
+JSON null
+{"middlename": null}
+
