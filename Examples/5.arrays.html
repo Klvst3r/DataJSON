@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+		var myObj = {
+			"name" : "vatan",
+			"age" : 30,
+			"cars": ["Fiat", "Mercedes", "BMW"]
+		};
+
+		var data = myObj.name + " Whose age is " + myObj.age + " holds these cars ";
+
+			data += myObj.cars[0]+ " " + myObj.cars[1] + " " + myObj.cars[2];
+
+		
+
+		document.getElementById("demo").innerHTML = data;
+
+	</script> 
+</body>
+</html>
