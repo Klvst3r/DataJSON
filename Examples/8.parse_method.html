@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+
+		var myJSONString = '{ "name":"vatan", "age":"30", "city":"New York" }';
+
+		var myObj = JSON.parse(myJSONString);
+
+		document.getElementById("demo").innerHTML = myObj.name + " " + myObj.age + " " + myObj.city;
+
+	</script> 
+</body>
+</html>

@@ -1,0 +1,31 @@
+We have a disclosed in our previus area, we take a debate to interchange format so data that is send from the server and will be consumed by that line
+
+So that well be sent in the form of and object and that object will be in the form of the stream tht will be a decend stream that will need to be passed to convert in into a JavsScript Object
+
+So for converting adjacent string to javascript object we ned to use a method that is called parse
+
+So lest make the clean 
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+
+		var myJSONString = '{ "name":"vatan", "age":"30", "city":"New York" }';
+
+		var myObj = JSON.parse(myJSONString);
+
+		document.getElementById("demo").innerHTML = myObj.name + " " + myObj.age + " " + myObj.city;
+
+	</script> 
+</body>
+</html>
+
+
+We passed the string and we first one by one in the jvascrpt object to pse method is used to pass  the string that is returned from the word
