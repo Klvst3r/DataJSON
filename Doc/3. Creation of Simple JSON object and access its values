@@ -1,0 +1,50 @@
+3. Creation of Simple JSON object and access its valuesmusing member access operator
+
+
+a loved one it theses lectures we are going to discuss how to produce on object and how to access to win those that are imbedded in third edition object
+
+
+An ejample:
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+
+	</script> 
+</body>
+</html>
+
+
+
+
+Lets Working wih and object
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+		var myObj = {
+			"name" : "vatan",
+			"age" : 30,
+			"car": null
+		};
+
+		alert(myObj.name);
+		alert(myObj.age);
+		alert(myObj.car);
+
+	</script> 
+</body>
+</html>
