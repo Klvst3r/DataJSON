@@ -63,3 +63,37 @@ And we can use a loop also:
 	</script> 
 </body>
 </html>
+
+Finally we can use an array to defne the values first and the use it
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="ntf-8">
+	<title>Example using JSON Object</title>
+</head>
+<body>
+	<div id="demo"></div>
+	<script tyoe="text/javascript">
+
+		var myCars = ["Fiat", "Mercedes", "BMW"];
+
+		var myObj = {
+			"name" : "vatan",
+			"age" : 30,
+			"cars": myCars
+		};
+
+		var data = myObj.name + " Whose age is " + myObj.age + " holds these cars ";
+
+		for(i in myObj.cars)
+		{
+			data += myObj.cars[i] + " ";
+		}
+
+		
+
+		document.getElementById("demo").innerHTML = data;
+
+	</script> 
+</body>
+</html>
